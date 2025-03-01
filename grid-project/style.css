@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-container {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 50px;
+}
+
+.list, .about, .menu, .address, .result, .syllabus {
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

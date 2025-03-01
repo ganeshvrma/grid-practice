@@ -16,6 +16,7 @@ img{
 .main{
     width: 100%;
     display: grid;
+    gap:10px;
     grid-template-areas:
     "a"
     "b"
